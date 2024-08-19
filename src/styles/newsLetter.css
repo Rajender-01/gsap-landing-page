@@ -1,0 +1,20 @@
+.newsLetter {
+  background-color: rgba(0, 0, 0, 0.072);
+  padding-block: 4rem;
+}
+.newsLetter__cont{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.newsLetter__heading {
+  font-size: 35px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 600px;
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+.bnr__cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 104px;
+  padding-block: 90px;
+}
+
+.bnr__content {
+  max-width: 657px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 32px;
+  font-family: 'Moderustic', sans-serif';
+}
+
+.bnr__heading {
+  font-size: 55px;
+}
+.bnr__imgCont img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;;
+}
+
+.bnr__desc {
+  font-size: 18px;
+}

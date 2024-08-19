@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Poppins:wght@400;500;600&display=swap");
+
+@import "./reset.css";
+@import "./notification.css";
+@import "./navbar.css";
+@import "./banner.css";
+@import "./ourClient.css";
+@import "./community.css";
+@import "./pixelgrade.css";
+@import "./helpLocalBusiness.css";
+@import "./newsLetter.css";
+@import "./footer.css";
+
+/* ID SELECTOR */
+#pageOne, #pageTwo, #pageThree {
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#pageFour {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* COMMON CLASSES */
+.colorText {
+  color: var(--primary-color);
+}
+
+.cursor {
+  width: 30px;
+  height: 30px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  position: fixed;
+  z-index: 10;
+  opacity: 0;
+}
+.btn {
+  max-height: 52px;
+  background-color: var(--primary-color);
+  padding: 13px 30px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.mb {
+  margin-bottom: 7rem;
+}
+.mt {
+  margin-top: 4rem;
+}
+
+/* TYPOGRAPHY */
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 18px;
+}

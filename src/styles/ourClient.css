@@ -1,0 +1,27 @@
+.client__cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+.client__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.client__logoCont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 140px;
+  align-items: center;
+}
+
+.client__logo {
+  cursor: pointer;
+}

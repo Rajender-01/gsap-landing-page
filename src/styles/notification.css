@@ -1,0 +1,14 @@
+/* NOTIFICATION */
+.ntf {
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+}
+.ntf__cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ntf__text {
+  font-size: 14px;
+}

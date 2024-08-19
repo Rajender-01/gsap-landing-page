@@ -1,0 +1,41 @@
+.help__cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.help__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.help__heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.help__desc {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.help__items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+
+.help__item {
+  flex-basis: 40%;
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+}
+
+.help__itemCount {
+  font-size: 22px;
+  font-weight: 600;
+}
